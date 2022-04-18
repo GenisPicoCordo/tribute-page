@@ -1,0 +1,89 @@
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 20px;
+  font-family: font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+  text-align: justify;
+}
+
+p {
+  font-size: 50px;
+  font-family: font-family: 'Bebas Neue', cursive;
+font-family: 'Lobster', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(30, 75, 65, 0.5)
+}
+
+#animation {
+  animation-name: rainbow;
+  animation-duration: 10s;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #047e79;
+  }
+  50% {
+    background-color: #cecf4d;
+  }
+  100% {
+    background-color: #df8c09;  
+  }
+}
+
+.cita {
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+}
+
+.imagen-terry {
+  width: 40%;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid double;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 150px;
+  font-family: font-family: 'Bebas Neue', cursive;
+  font-family: 'Lobster', cursive;
+  padding: 15px 5px 15px 5px;
+  background-color: #DE781F;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+
+#imagen-caption {
+  padding: 15px 5px 15px 5px;
+  display: flex;
+  justify-content: center;
+  margin: 
+}
+
+a: hover {
+  color: #DE781F;
+}
+
+.enlace {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: #edfaf9; 
+}
